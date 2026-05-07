@@ -1,5 +1,5 @@
 import type { Context } from '@maxhub/max-bot-api';
-import { ask } from '../services/deepseek';
+import { ask } from '../services/ai';
 
 export async function handleMessage(ctx: Context): Promise<void> {
   const message = ctx.message;
@@ -14,7 +14,7 @@ export async function handleMessage(ctx: Context): Promise<void> {
     const reply = await ask(chatId, text);
     await ctx.reply(reply);
   } catch (err: unknown) {
-    console.error('Ошибка DeepSeek API:', err);
+    console.error('Ошибка AI провайдера:', err);
     await ctx.reply('Извини, произошла ошибка при обращении к ИИ. Попробуй ещё раз.');
   }
 }

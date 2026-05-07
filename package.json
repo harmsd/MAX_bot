@@ -10,13 +10,14 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
     "@maxhub/max-bot-api": "^0.2.2",
-    "openai": "^4.77.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.0"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
     "@types/node": "^20.12.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
   }
 }
