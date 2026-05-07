@@ -33,13 +33,6 @@
 - **MAX_BOT_TOKEN** — создайте бота через `@MasterBot` в мессенджере MAX
 - Ключи AI провайдеров — достаточно одного для начала:
 
-| Провайдер | Где получить |
-|---|---|
-| DeepSeek | [platform.deepseek.com](https://platform.deepseek.com) |
-| OpenAI | [platform.openai.com](https://platform.openai.com) |
-| Anthropic | [console.anthropic.com](https://console.anthropic.com) |
-| Qwen | [dashscope.aliyuncs.com](https://dashscope.aliyuncs.com) |
-
 ### 2. Настроить окружение
 
 ```bash
